@@ -44,3 +44,8 @@ install(TARGETS cartographer_offline_node
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+google_binary(robot_node
+  SRCS
+    robot.cc
+)
